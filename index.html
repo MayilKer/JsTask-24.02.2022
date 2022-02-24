@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <!-- SliderTask -->
+    <h1 class="text-center">SLIDER</h1>
+    <div class="slider">
+        <div class="images">
+            <div class="content active">
+                <img src="./images/clouds.jpg" alt="">
+            </div>
+            <div class="content">
+                <img src="./images/image2.jpg" alt="">
+            </div>
+            <div class="content">
+                <img src="./images/sweden.jpg" alt="">
+            </div>
+        </div>
+            <div class="icon left">
+                <i class="fas fa-chevron-left"></i>
+            </div>
+            <div class="icon right">
+                <i class="fas fa-chevron-right"></i>
+            </div>
+    </div>
+     <!-- END -->
+
+    <!-- Tab-Bar -->
+    <h1 class="text-center my-5">TAB-MENU</h1>
+    <div class="container">
+        <div class="tab-menu">
+            <div class="top">
+                <div data-id="1" class="selected">London</div>
+                <div data-id="2">Berlin</div>
+                <div data-id="3">Roma</div>
+            </div>
+            <div class="bottom">
+                <div data-id="1">
+                    <h3>London</h3>
+                    <p>London is the capital of Great Britain</p>
+                </div>
+                <div data-id="2" class="d-none">
+                    <h3>Berlin</h3>
+                    <p>Berlin is the capital of Great Britain</p>
+                </div>
+                <div  data-id="3" class="d-none">
+                    <h3>Roma</h3>
+                    <p>Roma is the capital of Great Britain</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END -->
+
+    <!-- To-Do-List -->
+    <div id="toDo">
+        <input id="inn" type="text">
+        <button id="btn">Add</button>
+        <button id="btn_remove">Remove</button>
+        <ul id="ull">
+        </ul>
+    <script src="./js/main.js"></script>
+</body>
+</html>

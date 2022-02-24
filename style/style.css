@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.slider {
+  width: 64%;
+  height: 400px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.slider:hover .icon {
+  opacity: 1;
+}
+
+.slider .images {
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+
+.slider .images .active {
+  opacity: 1 !important;
+}
+
+.slider .images .content {
+  -webkit-transition: .5s;
+  transition: .5s;
+  width: 100%;
+  opacity: 0;
+  position: absolute;
+}
+
+.slider .images .content img {
+  width: 100%;
+  height: 400px;
+}
+
+.slider .icon {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+  opacity: 0;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.slider .left {
+  left: 30px;
+}
+
+.slider .right {
+  right: 30px;
+}
+
+.container {
+  margin-bottom: 50px;
+}
+
+.container .tab-menu .top {
+  border: 1px  solid  grey;
+  background-color: #f1f1f1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .tab-menu .top div {
+  padding: 20px;
+  -webkit-transition: background .4s;
+  transition: background .4s;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.container .tab-menu .top div:hover {
+  background-color: grey;
+}
+
+.container .tab-menu .top .selected {
+  background-color: grey;
+}
+
+.container .tab-menu .bottom {
+  padding: 20px;
+  border: 1px solid grey;
+  border-top: none;
+}
+/*# sourceMappingURL=style.css.map */
